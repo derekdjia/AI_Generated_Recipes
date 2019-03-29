@@ -35,6 +35,8 @@ Let's explore the culinary world!
 7. [About the Author](#7-about-the-author)
 8. [References](#8-references)
 
+![header](img/molgast5.jpg)
+
 ## 1. The Data
 
 #### 1.1 Scrapping and Webcrawling
