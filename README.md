@@ -1,6 +1,7 @@
 ![header](img/header.jpg)
 <p align="center"><i>A Project Built with Generative Adversial Network Network and ❤️ of :hamburger: </i></p>
 
+
 ## Motivation for the Project
 
 >  “There is no sincerer love than the love of food."
