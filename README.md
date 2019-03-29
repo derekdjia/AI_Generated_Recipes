@@ -37,6 +37,8 @@ Let's explore the culinary world!
 6. [References](#8-references)
 
 ## 1. The Data
+### 1.1 Scrapping and Webcrawling
+
 ### 1.1 Simple Data File
 As it turns out, the final CNN had a __validation accuracy of 58%__. This actually makes a lot of sense. Because our expressions usually consist a combination of emotions, and _only_ using one label to represent an expression can be hard. In this case, when the model predicts incorrectly, the correct label is often the __second most likely emotion__ as seen in Figure 8 (examples with light blue labels).
 
