@@ -44,7 +44,7 @@ Let's get some data. Various websites offer a platform for its users to share th
 Using a popular recipe scraper package, we are able to automate the process of scraping data from these websites. [2]
 > pip install git+git://github.com/hhursev/recipe-scrapers.git
 
-However, we need to conform the rules set forth by these website while scraping. Those who are interested can learn more about it [*here*](https://www.datahen.com/data-scraping-vs-data-crawling/) [3] Allrecipe's webcrawling rules are detailed [*here*]
+However, we need to conform the rules set forth by these website while scraping. Those who are interested can learn more about it [*here.*](https://www.datahen.com/data-scraping-vs-data-crawling/) [3] Allrecipe's webcrawling rules are detailed [*here.*]
 (https://allrecipes.com/robots.txt)
 
 #### 1.2 Condensed Data File
