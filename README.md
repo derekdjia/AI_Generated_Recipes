@@ -45,12 +45,14 @@ Let's explore the culinary world!
 
 Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from Kevin Broh-Kahn's Github repository. [2] This dataset was procured from allrecipes.com, [3] prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
 
-## 5. About the Author
+## 7. About the Author
 
 **Derek Jia** is a data scientist who loves building intelligent applications and exploring the exciting possibilities using deep learning. He is interested in creating practical and innovative solutions to real-world problems. He holds two degrees in Finance and Math from The University of Pennsylvania. You can reach him on [LinkedIn](https://www.linkedin.com/in/derekdjia).
 
-## 6. References
+## 8. References
 
 1. [*"What is Molecular Gastronomy"* Pictures](https://mrcavaliere.com/what-is-molecular-gastronomy/)
-2. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition (CS231n), Stanford University.
+2. [*"Recipe JSON File"*](https://github.com/kbrohkahn/recipe-parser/)
+3. [*"Allrecipes.com: Food Focused Social Network"*](https://allrecipes.com/)
+4. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition (CS231n), Stanford University.
 
