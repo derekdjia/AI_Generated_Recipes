@@ -8,4 +8,4 @@ Dependencies:
 Python 3.6, 
 Tensorflow 1.14,
 
-<img src="https://imgflip.com/gif/2x8bzx" width="40" height="40" />
+<img src="https://imgflip.com/gif/2x9txo" width="40" height="40" />
