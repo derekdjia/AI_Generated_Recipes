@@ -55,7 +55,7 @@ Due to the limitations in time and computation cost of scraping websites, let's 
 
 1. [*"What is Molecular Gastronomy"* Pictures](https://mrcavaliere.com/what-is-molecular-gastronomy/)
 2. [*"Recipe Scraper"* Python Package](https://github.com/hhursev/recipe-scrapers)
-3. [*"Recipe JSON File"* Kevin Broh Kahn Repository](https://github.com/kbrohkahn/recipe-parser/)
+3. [*"Recipe JSON File"*](https://github.com/kbrohkahn/recipe-parser/)
 4. [*"Allrecipes.com: Food Focused Social Network"*](https://allrecipes.com/)
 5. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition, Stanford University.
 6. [*"Graphic Designs"*](https://www.canva.com/)
