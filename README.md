@@ -45,7 +45,7 @@ Using a popular recipe scraper package, we are able to automate the process of s
 
 #### 1.2 Condensed Data File
 
-Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from Kevin Broh-Kahn's Github repository. [2] This dataset was procured from allrecipes.com, [3] prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
+Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from Kevin Broh-Kahn's Github repository. [3] This dataset was procured from allrecipes.com, [4] prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
 
 ## 7. About the Author
 
@@ -54,8 +54,9 @@ Due to the limitations in time and computation cost of scraping websites, let's 
 ## 8. References
 
 1. [*"What is Molecular Gastronomy"* Pictures](https://mrcavaliere.com/what-is-molecular-gastronomy/)
-2. [*"Recipe JSON File"* Kevin Broh Kahn Repository](https://github.com/kbrohkahn/recipe-parser/)
-3. [*"Allrecipes.com: Food Focused Social Network"*](https://allrecipes.com/)
-4. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition, Stanford University.
-5. [*"Graphic Designs"*](https://www.canva.com/)
+2. [*"Recipe Scraper"* Python Package](https://github.com/hhursev/recipe-scrapers)
+3. [*"Recipe JSON File"* Kevin Broh Kahn Repository](https://github.com/kbrohkahn/recipe-parser/)
+4. [*"Allrecipes.com: Food Focused Social Network"*](https://allrecipes.com/)
+5. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition, Stanford University.
+6. [*"Graphic Designs"*](https://www.canva.com/)
 
