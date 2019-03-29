@@ -11,6 +11,6 @@ I've always loved math, ever since I Was four years old. Naturally, I gravitated
 
 | Tools         | LIbraries     |
 | ------------- |---------------|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
+| Python 3.6    | right-aligned |
+| Tensorflow 1.13     | centered      |
 | zebra stripes | are neat      |
