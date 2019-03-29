@@ -8,6 +8,6 @@ Dependencies:
 Python 3.6, 
 Tensorflow 1.14,
 
-Sources:
 
 
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
