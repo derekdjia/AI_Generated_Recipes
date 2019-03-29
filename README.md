@@ -39,7 +39,7 @@ Let's explore the culinary world!
 
 #### 1.1 Scrapping and Webcrawling
 
-Let's get some data. Various websites offer a platform for its users to share their recipes. As of 2019, there are over 1 million entries located across several websites, including https://allrecipes.com, https://epicurious.com, and https://yummly.com.
+Let's get some data. Various websites offer a platform for its users to share their recipes. As of 2019, there are over 1 million entries located across several websites, including https://allrecipes.com, https://epicurious.com, and https://yummly.com. For this project we are interest in the ingredients used (and their quantities) and the directions to process the ingredients.
 
 #### 1.2 Condensed Data File
 
