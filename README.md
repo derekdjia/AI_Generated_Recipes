@@ -46,6 +46,8 @@ Using a popular recipe scraper package, we are able to automate the process of s
 
 However, we need to conform the rules set forth by these website while scraping. Those who are interested can learn more about it [*here.*](https://www.datahen.com/data-scraping-vs-data-crawling/) [3] Allrecipe's webcrawling rules are detailed [*here.*](https://allrecipes.com/robots.txt) [4]
 
+We have setup a remote Web Scraper using AWS Lambda. The steps to do so can be found [*here.*] (https://medium.com/northcoders/make-a-web-scraper-with-aws-lambda-and-the-serverless-framework-807d0f536d5f) [5]
+
 #### 1.2 Condensed Data File
 
 Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from another Github repository. [5] This dataset was procured from allrecipes.com, [6] prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
