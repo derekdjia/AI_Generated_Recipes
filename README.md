@@ -9,3 +9,5 @@ I've always loved math, ever since I Was four years old. Naturally, I gravitated
 
 ## Tools and Dependencies
 
++ Numpy
++ Pandas
