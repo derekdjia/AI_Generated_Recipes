@@ -13,7 +13,7 @@
 
 Deep learning has been used in many application to solve real-world problems. In recent years, it has seen tremendous growth in its popularity and usefulness, due to more powerful computers, larger datasets, and developments in the field of neural networks. Modern techniques have been transformative in the various fields: finance, engineers, chemistry, allowing professionals to push the edge of what is possible. But artificial intelligence evolve beyond a mere scientific tool; it is capable of teaching humans creativity, artistic vision, and adaptive preferences.
 
-Let's explore this in the culinary world!
+Let's explore the culinary world!
 
 ## Table of Contents
 1. [The Data](#1-the-database)
