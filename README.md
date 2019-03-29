@@ -50,7 +50,7 @@ We have setup a remote Web Scraper using [*AWS Lambda.*](https://medium.com/nort
 
 #### 1.2 Condensed Data File
 
-Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from another Github repository. [5] This dataset was procured from allrecipes.com, [6] prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
+Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from another Github repository. [5] This dataset was procured prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
 
 ## 7. About the Author
 
@@ -62,8 +62,8 @@ Due to the limitations in time and computation cost of scraping websites, let's 
 2. [*Recipe Scraper* Python Package](https://github.com/hhursev/recipe-scrapers)
 3. [*Data Scraping vs Data Crawling* Scraping Etiquette](https://www.datahen.com/data-scraping-vs-data-crawling/)
 4. [*Allrecipes Webscraping and Webcrawling rules*](https://allrecipes.com/robots.txt/)
-5. [*Recipe JSON File*](https://github.com/kbrohkahn/recipe-parser/)
-6. [*Allrecipes* Food Focused Social Network](https://allrecipes.com/)
+5. [*AWS Lambda* Tutorial](https://medium.com/northcoders/make-a-web-scraper-with-aws-lambda-and-the-serverless-framework-807d0f536d5f)
+6. [*Recipe JSON File*](https://github.com/kbrohkahn/recipe-parser/)
 7. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition, Stanford University.
 8. [*Canva* Graphic Designs](https://www.canva.com/)
 
