@@ -14,3 +14,18 @@ I've always loved math, ever since I Was four years old. Naturally, I gravitated
 | Python 3.6    | right-aligned |
 | Tensorflow 1.13     | centered      |
 | zebra stripes | are neat      |
+
+## Data Collection
+
+
+## Data Preprocessing
+
+
+## Data Processing
+
+
+## Data Output and Interpretation
+
+
+## Reference
+
