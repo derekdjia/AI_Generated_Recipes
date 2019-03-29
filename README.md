@@ -52,6 +52,8 @@ This project is currently in the process of being relocated to Amazon Web Servic
 
 Due to the limitations in time and computational cost of scraping websites, let's use a cleaned dataset. [5] This dataset was procured prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
 
+## 2. Preprocessing
+
 ## 7. About the Author
 
 **Derek Jia** is a data scientist who loves building intelligent applications and exploring the exciting possibilities using deep learning. He is interested in creating practical and innovative solutions to real-world problems. He holds two degrees in Finance and Math from The University of Pennsylvania. You can reach him on [LinkedIn](https://www.linkedin.com/in/derekdjia).
