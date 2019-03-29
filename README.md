@@ -35,7 +35,7 @@ Let's explore the culinary world!
 7. [About the Author](#7-about-the-author)
 8. [References](#8-references)
 
-![header](img/molgast5.jpg)
+![header](img/molgast5.jpg height=25% width=25%)
 
 ## 1. The Data
 
