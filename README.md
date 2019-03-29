@@ -30,6 +30,9 @@ Human facial expressions can be easily classified into 7 basic emotions: happy, 
 6. [References](#8-references)
 
 
-## 6 About the Author
+## 5. About the Author
 
-I've always loved math, ever since I Was four years old. Naturally, I gravitated towards a math heavy education. However, I felt pure math was too abstract, too intangible. I had a creative urge to build something with had a practical use in the real world. To explore the culinary world through a numerical lens. Thanks for taking the time to read my project.
+Derek is a nerd. He likes food and data science. Feel free to reach out to him at derekdjia@gmail.com or message him on linkedin.com/in/derekdjia.
+
+## 6. References
+
