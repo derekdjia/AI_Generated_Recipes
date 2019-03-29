@@ -34,7 +34,7 @@ Human facial expressions can be easily classified into 7 basic emotions: happy, 
 
 ## 5. About the Author
 
-**Derek Jia** is a data scientist who loves building intelligent applications and exploring the exciting possibilities using deep learning. He is interested in creating practical and innovative solutions to real-world problems. He holds two degrees in Finance and Math at The University of Pennsylvania. You can reach him on [LinkedIn](https://www.linkedin.com/in/derekdjia).
+**Derek Jia** is a data scientist who loves building intelligent applications and exploring the exciting possibilities using deep learning. He is interested in creating practical and innovative solutions to real-world problems. He holds two degrees in Finance and Math from The University of Pennsylvania. You can reach him on [LinkedIn](https://www.linkedin.com/in/derekdjia).
 
 ## 6. References
 
