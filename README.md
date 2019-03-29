@@ -42,7 +42,7 @@ Let's explore the culinary world!
 
 #### 1.2 Condensed Data File
 
-Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from Kevin Broh-Kahn's Github repository[2].
+Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from Kevin Broh-Kahn's Github repository.[2] This dataset was procured from allrecipes.com [3] prior to 2017, totalling 18417 observations.
 
 ## 5. About the Author
 
