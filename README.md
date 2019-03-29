@@ -18,7 +18,7 @@ Let's explore the culinary world!
 ## Table of Contents
 1. [The Data](#1-the-database)
 	* [1.1 Simple Data File](#11-simple-data-file)
-	* [1.2 Webscrapping and Webcrawlling](#32-webscrapping-and-webcrawlling)  
+	* [1.2 Webscrapping and Webcrawlling](#32-webscrapping-and-webcrawling)  
 2. [The Model](#2-the-model)
 	* [3.1 Input Layer](#31-input-layer)
 	* [3.2 Convolutional Layers](#32-convolutional-layers)  
