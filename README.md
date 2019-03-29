@@ -41,6 +41,8 @@ Let's explore the culinary world!
 
 Let's get some data. Various websites offer a platform for its users to share their recipes. As of 2019, there are over 1 million entries located across several websites, including [*Allrecipes*](https://allrecipes.com/), [*Epicurious*](https://epicurious.com/), and [*Yummly*](https://yummly.com/). For this project we are interest in the quantity of ingredients used as well as the directions to process the ingredients. For data exploration, we also include the user generated rating, scaled to a rating between 1 and 5 stars.
 
+Using a popular recipe scraper package, we are able to automate the process of scraping data from these websites.
+
 #### 1.2 Condensed Data File
 
 Due to the limitations in time and computation cost of scraping websites, let's use a cleaned dataset borrow from Kevin Broh-Kahn's Github repository. [2] This dataset was procured from allrecipes.com, [3] prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
