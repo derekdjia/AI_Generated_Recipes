@@ -43,4 +43,6 @@ Let's explore the culinary world!
 
 ## 6. References
 
-+ https://mrcavaliere.com/what-is-molecular-gastronomy/
+1.  https://mrcavaliere.com/what-is-molecular-gastronomy/
+2. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition (CS231n), Stanford University.
+
