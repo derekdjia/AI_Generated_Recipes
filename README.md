@@ -50,7 +50,7 @@ This project is currently in the process of being relocated to Amazon Web Servic
 
 #### 1.2 Condensed Data File
 
-Due to the limitations in time and computational cost of scraping websites, let's use a cleaned dataset. [5] This dataset was procured prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
+Due to the limitations in time and computational cost of scraping websites, let's use a cleaned dataset. [6] This dataset was procured prior to 2017, totalling 18417 observations. It is saved as a json file and reuploaded in the /data directory.
 
 ## 2. Preprocessing
 
