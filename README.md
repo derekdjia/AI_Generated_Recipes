@@ -48,6 +48,6 @@ As it turns out, the final CNN had a __validation accuracy of 58%__. This actual
 
 ## 6. References
 
-1.  https://mrcavaliere.com/what-is-molecular-gastronomy/
+1. [*"What is Molecular Gastronomy" Pictures*] (https://mrcavaliere.com/what-is-molecular-gastronomy/)
 2. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition (CS231n), Stanford University.
 
