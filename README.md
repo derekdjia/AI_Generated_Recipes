@@ -86,3 +86,5 @@ import { State, Observe } from "mdx-observable";
 7. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition, Stanford University.
 8. [*Canva* Graphic Designs](https://www.canva.com/)
 9. [*Wordclouds*](https://www.wordclouds.com/)
+
+![footer](img/footer.jpg)
