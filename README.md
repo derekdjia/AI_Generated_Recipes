@@ -22,7 +22,7 @@ Let's explore the culinary world!
 2. [Preprocessing](#2preprocessing)
 	* [2.1 Cleaning Formatting](#21-cleaning-formatting)
 	* [2.2 Identifying Key Variables](#22-identifying-key-variables)  
-3. [Modelling and Exploratory Data Analysis](#3-modeling-eda)
+3. [General Modeling and Exploratory Data Analysis](#3-modeling-eda)
 	* [3.1 Regression](#41-regression)
 	* [3.2 Classification](#41-classification)
 	* [3.3 Clustering](#42-clustering)
@@ -54,6 +54,23 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 ## 2. Preprocessing
 
+## 3. General Modeling and Exploratory Data Analysis
+
+import { State, Observe } from "mdx-observable";
+# Counter
+<State initialState={{ count: 0 }}>
+<Observe>
+  {({ setState }) => (
+    <button onClick={() => setState(s => ({ count: s.count + 1 }))}>
+      Click me
+    </button>
+  )}
+</Observe>
+<Observe>
+  { ({ count }) => (`The button has been clicked ${count} times`) }
+</Observe>
+</State>
+
 ## 7. About the Author
 
 **Derek Jia** is a data scientist who loves building intelligent applications and exploring the exciting possibilities using deep learning. He is interested in creating practical and innovative solutions to real-world problems. He holds two degrees in Finance and Math from The University of Pennsylvania. You can reach him on [LinkedIn](https://www.linkedin.com/in/derekdjia).
@@ -68,4 +85,4 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 6. [*Recipe JSON File*](https://github.com/kbrohkahn/recipe-parser/)
 7. [*"Andrej Karpathy's Convolutional Neural Networks (CNNs / ConvNets)"*](http://cs231n.github.io/convolutional-networks/) Convolutional Neural Networks for Visual Recognition, Stanford University.
 8. [*Canva* Graphic Designs](https://www.canva.com/)
-
+9. [*Wordclouds*](https://www.wordclouds.com/)
