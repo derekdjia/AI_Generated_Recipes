@@ -4,7 +4,7 @@
 
 ## Motivation for the Project
 
-<img src="img/molgast3.jpg" height=20%  width=20%  alt="<3?" ALIGN="right">
+<img src="img/molgast3.jpg" height=24%  width=24%  alt="<3?" ALIGN="right">
 <br><br>
 
 >  “There is no sincerer love than the love of food."
