@@ -18,7 +18,7 @@ Let's explore the culinary world!
 ## Table of Contents
 1. [The Data](#1-the-database)
 	* [1.1 Simple Data File](#11-simple-data-file)
-	* [1.2 Webscrapping and Webcrawlling](#12-webscrapping-and-webcrawling)  
+	* [1.2 Webscrapping and Webcrawling](#12-webscrapping-and-webcrawling)  
 2. [Preprocessing](#2preprocessing)
 	* [2.1 Cleaning Formatting](#21-cleaning-formatting)
 	* [2.2 Identifying Key Variables](#22-identifying-key-variables)  
