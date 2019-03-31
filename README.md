@@ -60,6 +60,10 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 #### 2.2.1 Natural Language Processing: Ingredients
 
+	    +1 pound baby Yukon Gold potatoes, quartered
+	    +4 ears corn, husked
+	    +4 tablespoons olive oil, divided
+
 #### 2.2.2 Natural Language Processing: Instructions
 
 	    Place potatoes into a large pot and cover with salted water; bring to a boil. 
