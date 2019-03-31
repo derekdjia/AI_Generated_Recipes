@@ -60,9 +60,9 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 #### 2.2.1 Natural Language Processing: Ingredients
 
-	    > Meanwhile, combine 3 tablespoons olive oil, 3 tablespoons Creole seasoning, juice from 1 lemon, 
-	    > garlic, Italian seasoning, 1/2 teaspoon paprika, red pepper flakes, salt, and pepper in a small bowl. 
-	    > Mix well to combine and set seasoning mixture aside.
+	    Meanwhile, combine 3 tablespoons olive oil, 3 tablespoons Creole seasoning, juice from 1 lemon, 
+	    garlic, Italian seasoning, 1/2 teaspoon paprika, red pepper flakes, salt, and pepper in a small bowl. 
+	    Mix well to combine and set seasoning mixture aside.
 
 #### 2.2.1 Natural Language Processing: Instructions
 
