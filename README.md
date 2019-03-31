@@ -84,8 +84,9 @@ First, we need to normalize the unit of measurement. It is straightforward to co
 Processing instructions is harder. Visually is this what is actually happening:
 
 
-
 ## 3. General Modeling and Exploratory Data Analysis
+
+![header](img/ingredientwordcloud.jpg)
 
 ## 6. Outcome
 
