@@ -98,8 +98,7 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 ## 3. General Modeling and Exploratory Data Analysis
 
-<img src="img/ingredientwordcloud.JPG" alt="<3?" ALIGN="center" description="Ingredients weighted by frequency">
-
+<div style="text-align:center"><img src ="img/ingredientwordcloud.JPG" /></div>
 Ingredients weighted by frequency
 
 ## 4. Feature Transformation and Dimensionality Reduction
