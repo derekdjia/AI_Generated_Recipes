@@ -20,7 +20,7 @@ Let's explore the culinary world!
 	* [1.1 Simple Data File](#11-simple-data-file)
 	* [1.2 Webscrapping and Webcrawling](#12-webscrapping-and-webcrawling)  
 2. [Preprocessing](#2-preprocessing)
-	* [2.1 Data Cleaning Process(#21-data-cleaning)
+	* [2.1 Data Cleaning Process](#21-data-cleaning)
 	* [2.2 Natural Language Processing](#22-nlp)  
 	    * [2.2.1 Ingredients](#22-ingredients)  
 	    * [2.2.2 Instructions](#22-instructions)  
@@ -60,7 +60,9 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 #### 2.2.1 Natural Language Processing: Ingredients
 
-	    > Meanwhile, combine 3 tablespoons olive oil, 3 tablespoons Creole seasoning, juice from 1 lemon, garlic, Italian seasoning, 1/2 teaspoon paprika, red pepper flakes, salt, and pepper in a small bowl. Mix well to combine and set seasoning mixture aside.
+	    > Meanwhile, combine 3 tablespoons olive oil, 3 tablespoons Creole seasoning, juice from 1 lemon, 
+	    > garlic, Italian seasoning, 1/2 teaspoon paprika, red pepper flakes, salt, and pepper in a small bowl. 
+	    > Mix well to combine and set seasoning mixture aside.
 
 #### 2.2.1 Natural Language Processing: Instructions
 
