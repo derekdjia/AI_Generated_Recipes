@@ -90,7 +90,7 @@ Processing instructions is harder. Visually is this what is actually happening:
 
 ... And just visualizing spacing here
 
-![header](img/ingredientHarmony.jpg)
+![header](img/logisticConfusionMatrix.jpg)
 
 ... And just visualizing spacing here some more
 
