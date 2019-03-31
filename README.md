@@ -99,7 +99,15 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 ## 3. General Modeling and Exploratory Data Analysis
 
 ![header](img/ingredientwordcloud.JPG)
+*Ingredients weighted by frequency
 
+<br></br>
+![header](img/foodnetwork.png)
+*Food Network Graph generated using Cytoscape 3.7.1
+
+## 4. Feature Transformation and Dimensionality Reduction
+
+## 5. Neural Networks
 
 ## 6. Outcome
 
