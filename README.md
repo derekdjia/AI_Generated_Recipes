@@ -81,10 +81,11 @@ First, we need to normalize the unit of measurement. It is straightforward to co
 	    Reduce heat to medium-low and simmer until tender, 10 to 12 minutes. 
 	    Add corn and boil for an additional 5 minutes. Drain. Cut corn into thirds.	
 
-Processing instructions is harder. Visually is this what is actually happening:
-
 <img src="img/process.jpg" height=22%  width=22%  alt="<3?" ALIGN="right">
 <br><br>
+
+Processing instructions is harder. Visually is this what is actually happening:
+
 
 
 ## 3. General Modeling and Exploratory Data Analysis
