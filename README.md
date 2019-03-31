@@ -20,8 +20,10 @@ Let's explore the culinary world!
 	* [1.1 Simple Data File](#11-simple-data-file)
 	* [1.2 Webscrapping and Webcrawling](#12-webscrapping-and-webcrawling)  
 2. [Preprocessing](#2preprocessing)
-	* [2.1 Cleaning Formatting](#21-cleaning-formatting)
-	* [2.2 Identifying Key Variables](#22-identifying-key-variables)  
+	* [2.1 Data Cleaning Process(#21-data-cleaning)
+	* [2.2 Natural Language Processing](#22-nlp)  
+	** [2.2 Natural Language Processing](#22-nlp)  
+	** [2.2 Natural Language Processing](#22-nlp)  
 3. [General Modeling and Exploratory Data Analysis](#3-modeling-eda)
 	* [3.1 Regression](#41-regression)
 	* [3.2 Classification](#41-classification)
@@ -54,22 +56,12 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 ## 2. Preprocessing
 
-## 3. General Modeling and Exploratory Data Analysis
+#### 2.1 Data Cleaning Process
 
-import { State, Observe } from "mdx-observable";
-# Counter
-<State initialState={{ count: 0 }}>
-<Observe>
-  {({ setState }) => (
-    <button onClick={() => setState(s => ({ count: s.count + 1 }))}>
-      Click me
-    </button>
-  )}
-</Observe>
-<Observe>
-  { ({ count }) => (`The button has been clicked ${count} times`) }
-</Observe>
-</State>
+#### 2.2 Natural Language Processing
+
+
+## 3. General Modeling and Exploratory Data Analysis
 
 ## 7. About the Author
 
