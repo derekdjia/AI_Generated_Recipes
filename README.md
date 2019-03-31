@@ -102,16 +102,19 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 <br></br>
 
+'''
 <img src="img/foodnetwork.png" alt="<3?" ALIGN="center" description="Food Network Graph generated using Cytoscape 3.7.1">
-
+'''
 
 ## 4. Feature Transformation and Dimensionality Reduction
 
-Using python's **sklearn** library, we use the t-distributed Stochasitc Neighbor Embedding module to visualize the similarities between the ingredient vectors. Below, we map the first and second components, colored by type of cuisine. 
+Using python's **sklearn** library, we use the t-distributed Stochasitc Neighbor Embedding module to visualize the similarities between the ingredient vectors. Below is the graph of the first and second components, colored by type of cuisine. 
 
 ![header](img/tsneingredients.jpg)
 
+While we are able to see distinct clustering, dimensionality reduction has the distinct problem of losing interpretability. Let's start at the beginning again. We know exactly what one tomato or 1 teaspoon of sugar is.
 
+but how do we interpret a unit vector of a small fractions of hundreds of ingredients? Similarity, 
 
 ## 5. Neural Networks
 
