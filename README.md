@@ -104,7 +104,13 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 <img src="img/foodnetwork.png" alt="<3?" ALIGN="center" description="Food Network Graph generated using Cytoscape 3.7.1">
 
+<br></br>
+
+<img src="img/IngredientsTSNEAnalysis.html" alt="<3?" ALIGN="center" description="Food Network Graph generated using Cytoscape 3.7.1">
+
 ## 4. Feature Transformation and Dimensionality Reduction
+
+
 
 ## 5. Neural Networks
 
