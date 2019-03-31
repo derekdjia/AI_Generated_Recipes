@@ -86,17 +86,7 @@ First, we need to normalize the unit of measurement. It is straightforward to co
 
 Processing instructions is harder. Visually is this the simplified instructions we feed to the machine. We make the assumption that the order of operation does not matter, only the total unit of cooking action matches the corresponding units of ingredients.
 
-
-
-
-
-
-
-
-
-
-
-
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## 3. General Modeling and Exploratory Data Analysis
 
