@@ -90,11 +90,14 @@ Processing instructions is harder. Visually is this what is actually happening:
 
 ... And just visualizing spacing here
 
-<img src="img/logisticconfusionmatrix.jpg" height=35%  width=35%>
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](<img src="img/logisticconfusionmatrix.jpg" height=35%  width=35%>)  |  ![](<img src="img/ingredientSimilarity.jpg" height=35%  width=35%>)
+
 
 ... And just visualizing spacing here some more
 
-<img src="img/ingredientSimilarity.jpg" height=35%  width=35%>
+
 
 ## 6. Outcome
 
