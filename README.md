@@ -19,11 +19,11 @@ Let's explore the culinary world!
 1. [The Data](#1-the-database)
 	* [1.1 Simple Data File](#11-simple-data-file)
 	* [1.2 Webscrapping and Webcrawling](#12-webscrapping-and-webcrawling)  
-2. [Preprocessing](#2preprocessing)
+2. [Preprocessing](#2-preprocessing)
 	* [2.1 Data Cleaning Process(#21-data-cleaning)
 	* [2.2 Natural Language Processing](#22-nlp)  
-	    * [2.2 Natural Language Processing](#22-nlp)  
-	    * [2.2 Natural Language Processing](#22-nlp)  
+	    * [2.2.1 Ingredients](#22-ingredients)  
+	    * [2.2.2 Instructions](#22-instructions)  
 3. [General Modeling and Exploratory Data Analysis](#3-modeling-eda)
 	* [3.1 Regression](#41-regression)
 	* [3.2 Classification](#41-classification)
@@ -58,8 +58,11 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 #### 2.1 Data Cleaning Process
 
-#### 2.2 Natural Language Processing
+#### 2.2.1 Natural Language Processing: Ingredients
 
+
+
+#### 2.2.1 Natural Language Processing: Instructions
 
 ## 3. General Modeling and Exploratory Data Analysis
 
