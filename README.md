@@ -86,7 +86,7 @@ Processing instructions is harder. Visually is this what is actually happening:
 
 ## 3. General Modeling and Exploratory Data Analysis
 
-![header](img/ingredientwordcloud.jpg)
+![header](img/ingredientwordcloud.JPG)
 
 ## 6. Outcome
 
