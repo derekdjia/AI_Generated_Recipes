@@ -24,7 +24,6 @@ Let's explore the culinary world!
 	* [2.2 Natural Language Processing](#22-nlp)  
 	    * [2.2.1 Ingredients](#22-ingredients)  
 	    * [2.2.2 Instructions](#22-instructions)  
-	    > Meanwhile, combine 3 tablespoons olive oil, 3 tablespoons Creole seasoning, juice from 1 lemon, garlic, Italian seasoning, 1/2 teaspoon paprika, red pepper flakes, salt, and pepper in a small bowl. Mix well to combine and set seasoning mixture aside.
 3. [General Modeling and Exploratory Data Analysis](#3-modeling-eda)
 	* [3.1 Regression](#41-regression)
 	* [3.2 Classification](#41-classification)
@@ -61,7 +60,7 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 #### 2.2.1 Natural Language Processing: Ingredients
 
-
+	    > Meanwhile, combine 3 tablespoons olive oil, 3 tablespoons Creole seasoning, juice from 1 lemon, garlic, Italian seasoning, 1/2 teaspoon paprika, red pepper flakes, salt, and pepper in a small bowl. Mix well to combine and set seasoning mixture aside.
 
 #### 2.2.1 Natural Language Processing: Instructions
 
