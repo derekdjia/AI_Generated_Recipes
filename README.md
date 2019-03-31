@@ -90,11 +90,11 @@ Processing instructions is harder. Visually is this what is actually happening:
 
 ... And just visualizing spacing here
 
-![header](img/logisticconfusionmatrix.jpg)
+![header](img/logisticconfusionmatrix.jpg height=35%  width=35%  )
 
 ... And just visualizing spacing here some more
 
-![header](img/ingredientSimilarity.jpg)
+![header](img/ingredientSimilarity.jpg height=35%  width=35%  )
 
 ## 6. Outcome
 
