@@ -101,8 +101,10 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 <br></br>
 <p align="center">
   <img src ="img/ingredientwordcloud.JPG">
-  <br></br>
-  Word cloud of ingredients, weighted by frequency of appearance in recipes
+</p>
+ <br></br>
+<p align="center">
+   Word cloud of ingredients, weighted by frequency of appearance in recipes
 </p>
 
 ## 4. Feature Transformation and Dimensionality Reduction
