@@ -72,13 +72,17 @@ Here's an example of a partial list of ingredients in a recipe. Each line of ing
 	    4. Food
 	    5. Method of preparation
 
-First, we need to normalize the unit of measurement. It is straightforward to convert standard units of weight and volume, but what is 4 ears of corns and how does it compare to another recipe that calls for 500g of corn? The imperfect solution here is to manually create a dictionary to map common food units to its corresponing average weight. 
+First, we need to normalize the unit of measurement. It is straightforward to convert standard units of weight and volume, but what is 4 ears of corns and how does it compare to another recipe that calls for 500g of corn? The imperfect solution here is to manually create a dictionary to map common food units to its corresponding average weight. 
 
 ###### 2.2.2 Natural Language Processing: Instructions
 
 	    Place potatoes into a large pot and cover with salted water; bring to a boil. 
 	    Reduce heat to medium-low and simmer until tender, 10 to 12 minutes. 
 	    Add corn and boil for an additional 5 minutes. Drain. Cut corn into thirds.	
+
+Processing instructions is harder. Visually is this what is actually happening:
+
+
 
 ## 3. General Modeling and Exploratory Data Analysis
 
