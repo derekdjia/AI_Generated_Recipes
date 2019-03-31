@@ -58,21 +58,23 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 #### 2.1 Data Cleaning Process
 
-#### 2.2.1 Natural Language Processing: Ingredients
+###### 2.2.1 Natural Language Processing: Ingredients
 
 	    1 pound baby Yukon Gold potatoes, quartered
 	    4 ears corn, husked
 	    4 tablespoons olive oil, divided
 
-Here's an example of a partial list of ingredients of a recipe. Each line of ingredient has the follow format:
+Here's an example of a partial list of ingredients in a recipe. Each line of ingredient has the follow format:
 
-	    * Quantity
-	    * Unit
-	    * Type (Optional)
-	    * Food
-	    * Method of preparation
+	    1. Quantity
+	    2. Unit
+	    3. Type (Optional)
+	    4. Food
+	    5. Method of preparation
 
-#### 2.2.2 Natural Language Processing: Instructions
+First, we need to normalize the unit of measurement. It is straightforward to convert standard units of weight and volume, but what is 4 ears of corns and how does it compare to another recipe that calls for 500g of corn? The imperfect solution here is to limit 
+
+###### 2.2.2 Natural Language Processing: Instructions
 
 	    Place potatoes into a large pot and cover with salted water; bring to a boil. 
 	    Reduce heat to medium-low and simmer until tender, 10 to 12 minutes. 
