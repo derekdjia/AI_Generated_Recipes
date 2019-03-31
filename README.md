@@ -78,7 +78,6 @@ First, we need to normalize the unit of measurement. It is straightforward to co
 ###### 2.2.2 Natural Language Processing: Instructions
 
 <img src="img/process.jpg" height=18%  width=18%  alt="<3?" ALIGN="right">
-<br></br>
 
 	    Place potatoes into a large pot and cover with salted water; bring to a boil. 
 	    Reduce heat to medium-low and simmer until tender, 10 to 12 minutes. 
