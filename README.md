@@ -66,11 +66,11 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 
 Here's an example of a partial list of ingredients of a recipe. Each line of ingredient has the follow format:
 
-	* Quantity
-	* Unit
-	* Type (Optional)
-	* Food
-	* Method of preparation
+	    * Quantity
+	    * Unit
+	    * Type (Optional)
+	    * Food
+	    * Method of preparation
 
 #### 2.2.2 Natural Language Processing: Instructions
 
