@@ -84,7 +84,7 @@ First, we need to normalize the unit of measurement. It is straightforward to co
 <img src="img/process.jpg" height=22%  width=22%  alt="<3?" ALIGN="right">
 <br><br>
 
-Processing instructions is harder. Visually is this what is actually happening:
+Processing instructions is harder. Visually is this the simplified instructions we feed to the machine. We make the assumption that the order of operation does not matter, only the total unit of cooking action matches the corresponding units of ingredients.
 
 
 
