@@ -86,11 +86,15 @@ Processing instructions is harder. Visually is this what is actually happening:
 
 ## 3. General Modeling and Exploratory Data Analysis
 
-## 7. About the Author
+## 7. Outcome
+
+![header](img/recipecard.jpg)
+
+## 8. About the Author
 
 **Derek Jia** is a data scientist who loves building intelligent applications and exploring the exciting possibilities using deep learning. He is interested in creating practical and innovative solutions to real-world problems. He holds two degrees in Finance and Math from The University of Pennsylvania. You can reach him on [LinkedIn](https://www.linkedin.com/in/derekdjia).
 
-## 8. References
+## 9. References
 
 1. [*"What is Molecular Gastronomy"* Pictures](https://mrcavaliere.com/what-is-molecular-gastronomy/)
 2. [*Recipe Scraper* Python Package](https://github.com/hhursev/recipe-scrapers)
