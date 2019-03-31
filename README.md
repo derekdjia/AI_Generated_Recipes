@@ -102,7 +102,6 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 <p align="center">
   <img src ="img/ingredientwordcloud.JPG">
 </p>
- <br></br>
 <p align="center">
    Word cloud of ingredients, weighted by frequency of appearance in recipes
 </p>
@@ -113,9 +112,7 @@ Using python's **sklearn** library, we use the t-distributed Stochasitc Neighbor
 
 <!---![header](img/tsneingredients.jpg)--->
 
-While we are able to see distinct clustering, dimensionality reduction has the distinct problem of losing interpretability. Let's start at the beginning again. We know exactly what one tomato or 1 teaspoon of sugar is.
-
-but how do we interpret a unit vector of a small fractions of hundreds of ingredients? Similarity, 
+While we are able to see distinct clustering, dimensionality reduction has the distinct problem of losing interpretability. Let's start at the beginning again. We know exactly what one tomato or 1 teaspoon of sugar is, but how do we interpret a unit vector of a small fractions of hundreds of ingredients? Similarity, how do we interpret a unit vector of instructions? 
 
 ## 5. Neural Networks
 
