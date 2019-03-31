@@ -109,7 +109,7 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 Using python's **sklearn** library, we use the t-distributed Stochasitc Neighbor Embedding module to visualize the similarities between the ingredient vectors. Below is the graph of the first and second components, colored by type of cuisine. 
 
-![header](img/tsneingredients.jpg)
+<!---![header](img/tsneingredients.jpg)--->
 
 While we are able to see distinct clustering, dimensionality reduction has the distinct problem of losing interpretability. Let's start at the beginning again. We know exactly what one tomato or 1 teaspoon of sugar is.
 
