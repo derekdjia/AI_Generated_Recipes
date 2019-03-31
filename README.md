@@ -88,6 +88,16 @@ Processing instructions is harder. Visually is this the simplified instructions 
 
 
 
+
+
+
+
+
+
+
+
+
+
 ## 3. General Modeling and Exploratory Data Analysis
 
 ![header](img/ingredientwordcloud.JPG)
