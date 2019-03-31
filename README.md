@@ -78,6 +78,7 @@ First, we need to normalize the unit of measurement. It is straightforward to co
 ###### 2.2.2 Natural Language Processing: Instructions
 
 <img src="img/process.jpg" height=18%  width=18%  alt="<3?" ALIGN="right">
+<br></br>
 
 	    Place potatoes into a large pot and cover with salted water; bring to a boil. 
 	    Reduce heat to medium-low and simmer until tender, 10 to 12 minutes. 
@@ -94,6 +95,8 @@ Variables that we try to parse in the instructions are:
 	    5. Ingredients
 
 We first remove the stopwords using the **NLTK** library and convert all words to lowercase. Each sentence is an instruction. To find the time, we use the **Regular Expression** library to look for units of time ('minutes','hours','minute','hour','seconds','second') and standardize all units to seconds. To find the temperature we look for the key phrase 'degrees f' or 'degrees c' and standardize all temp to Fahrenheit. To find actions and tools, we import a predefined list of actions and tools and match words in the sentence to words in the actions and tools lists. To find ingredients, we use the list of ingredients previously found.
+
+ > Instructions = Time( Optional) + Temperature (Optional) + Action + Tools (Optional) + Ingredients
 
 ## 3. General Modeling and Exploratory Data Analysis
 
