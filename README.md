@@ -67,12 +67,12 @@ Due to time and computational constraints, let's use a cleaned dataset. [6] This
 Here's an example of a partial list of ingredients in a recipe. Each line of ingredient has the follow format:
 
 	    1. Quantity
-	    2. Unit
+	    2. Unit (Optional)
 	    3. Type (Optional)
 	    4. Food
 	    5. Method of preparation
 
-First, we need to normalize the unit of measurement. It is straightforward to convert standard units of weight and volume, but what is 4 ears of corns and how does it compare to another recipe that calls for 500g of corn? The imperfect solution here is to limit 
+First, we need to normalize the unit of measurement. It is straightforward to convert standard units of weight and volume, but what is 4 ears of corns and how does it compare to another recipe that calls for 500g of corn? The imperfect solution here is to manually create a dictionary to map common food units to its corresponing average weight. 
 
 ###### 2.2.2 Natural Language Processing: Instructions
 
