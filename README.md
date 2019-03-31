@@ -83,6 +83,9 @@ First, we need to normalize the unit of measurement. It is straightforward to co
 
 Processing instructions is harder. Visually is this what is actually happening:
 
+<img src="img/process.jpg" height=22%  width=22%  alt="<3?" ALIGN="right">
+<br><br>
+
 
 ## 3. General Modeling and Exploratory Data Analysis
 
