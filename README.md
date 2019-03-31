@@ -34,8 +34,9 @@ Let's explore the culinary world!
 5. [Neural Networks](#5-neural-networks)
 	* [5.1 Generative Adversial Network Model](#51-gan)
 6. [Other](#6-other)	
-7. [About the Author](#7-about-the-author)
-8. [References](#8-references)
+7. [Result](#7-result)
+8. [About the Author](#8-about-the-author)
+9. [References](#9-references)
 
 ## 1. The Data
 
