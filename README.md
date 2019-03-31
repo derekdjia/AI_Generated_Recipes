@@ -93,9 +93,9 @@ Variables that we try to parse in the instructions are:
 	    4. Tools (Optional)
 	    5. Ingredients
 
-We first remove the stopwords using the **NLTK** library and convert all words to lowercase. Each sentence is an instruction. To find the time, we use the **Regular Expression** library to look for units of time ('minutes','hours','minute','hour','seconds','second') and standardize all units to seconds. To find the temperature we look for the key phrase 'degrees f' or 'degrees c' and standardize all temp to Fahrenheit. To find actions and tools, we import a predefined list of actions and tools and match words in the sentence to words in the actions and tools lists. To find ingredients, we use the list of ingredients previously found.
+We first remove the stopwords using the **NLTK** library and convert all words to lowercase. Each sentence is an instruction. To find the time, we use the **Regular Expression** library to look for units of time ('minutes','hours','minute','hour','seconds','second') and standardize all units to seconds. To find the temperature we look for the key phrase 'degrees f' or 'degrees c' and standardize all temp to Fahrenheit. To find actions and tools, we import a predefined list of actions and tools and match words in the sentence to words in the actions and tools lists. To find ingredients, we use the list of ingredients previously found. [10][11][12]
 
- > Instructions = Time( Optional) + Temperature (Optional) + Action + Tools (Optional) + Ingredients
+ > Instructions = Time + Temperature + Action + Tools + Ingredients
 
 ## 3. General Modeling and Exploratory Data Analysis
 
