@@ -152,7 +152,9 @@ While we are able to see distinct clustering, dimensionality reduction has the d
 
 A neural network, in its basic essence, is model for complex relationships that can find latent pattern. Each observation is broken down as a vector of data and subject to many layers and iterations of transformation.
 
-A generative adversarial network is a specific type of machine learning system, where two neural networks (generator and discriminator) compete with each other. The first neural network is a generator which take a random normal variable (noise)  as an input, and optimizes a generation function produces fakes data that closely mirrors the real data, as judged by the the discriminator's discrimating check function. Subsequently, the discriminator alters its discriminating check function to best distinguish between the real and fake data. The process is repeated to improve the performance of both the generator and the discriminator.
+A generative adversarial network (GAN) is a specific type of machine learning system, where two neural networks (generator and discriminator) compete with each other. The first neural network is a generator which take a random normal variable (noise)  as an input, and optimizes a generation function produces fakes data that closely mirrors the real data, as judged by the the discriminator's discrimating check function. Subsequently, the discriminator alters its discriminating check function to best distinguish between the real and fake data. The process is repeated to improve the performance of both the generator and the discriminator.
+
+Should the reader be interested in learning more about GAN, we would recommend read the follow [article](https://medium.com/@jonathan_hui/gan-why-it-is-so-hard-to-train-generative-advisory-networks-819a86b3750b). An excerpt is included below:
 
 ![header](img/gan1.jpg)
 
