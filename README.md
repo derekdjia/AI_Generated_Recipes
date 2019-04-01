@@ -102,19 +102,24 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 In the process of constructing an Artificial Intelligence model, let's take the time to explore the following question to see if we can discover any pattern in our data.
 
-	* Can we categorize types of food based on their recipes?
+	* Can we predict cuisines based on their recipes?
 	* Can we say with certainty if one type of food is more popular than another type?
 	* Which factors and ingredients are good or not good for certain foods?
 	* Which cuisines are most similar?
 	* Which ingredients go well together or do not go well together?
 	* Can we predict how recipes will be rated?
 
+###### a. Can we categorize types of food based on their recipes?
 <p align="center">
   <img src ="img/ingredientwordcloud.JPG">
 </p>
 <p align="center">
    Word cloud of ingredients, weighted by frequency of appearance in recipes
 </p>
+
+###### b. Can we say with certainty if one type of food is more popular than another type?
+
+Using python's **scipy** library, we use the stats.ttest_ind module to compare the means of two independent samples of scores. 
 
 ## 4. Feature Transformation and Dimensionality Reduction
 
