@@ -100,7 +100,14 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 ![header](img/exploration.jpg)
 
-<br></br>
+* Can we categorize types of food based on their recipes?
+* Can we say with certainty if one type of food is more popular than another type?
+* Which factors and ingredients are good or not good for certain foods?
+* Which cuisines are most similar?
+* Which ingredients go well together or do not go well together?
+* Predicting user rating based on ingredients/instructions/title
+* Can artificial intelligence come up with new recipes that humans would enjoy?
+
 <p align="center">
   <img src ="img/ingredientwordcloud.JPG">
 </p>
