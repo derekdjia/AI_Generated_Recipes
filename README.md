@@ -96,6 +96,8 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
  > **Instructions = Time + Temperature + Action + Tools + Ingredients**
 
+<br></br>
+
 ![header](img/exploration.jpg)
 
 ## 3. General Modeling and Exploratory Data Analysis
@@ -104,8 +106,7 @@ In the process of constructing an Artificial Intelligence model, let's take the 
 
 	* Can we predict cuisines based on their recipes?
 	* Can we say with certainty if one type of food is more popular than another type?
-	* Which factors and ingredients are good or not good for certain foods?
-	* Which cuisines are most similar?
+	* Which recipes are the most similar?
 	* Which ingredients go well together or do not go well together?
 	* Can we predict how recipes will be rated?
 
@@ -120,6 +121,14 @@ In the process of constructing an Artificial Intelligence model, let's take the 
 ###### b. Can we say with certainty if one type of food is more popular than another type?
 
 Using python's **scipy** library, we use the stats.ttest_ind module to compare the means of two independent samples of scores. 
+
+Based on our data, we conclude with 95% that the allrecipes community prefer the cuisines on the left to the cuisines on the right.
+
+###### c. Which recipes are the most similar?
+
+Using python's **sklearn** library, we use the metrics.pairwise.cosine_similarity module to construct a cosine similarity matrix of cuisines. A score of 1 indicates that two cuisines share indentical ingredients in their recipes and a score of 0 indicates that two cuisines uses ingredients that have no correlation to each other.
+
+![header](img/ingredientSimilarity.jpg)
 
 ## 4. Feature Transformation and Dimensionality Reduction
 
