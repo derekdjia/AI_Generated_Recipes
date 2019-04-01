@@ -130,6 +130,14 @@ Using python's **sklearn** library, we use the metrics.pairwise.cosine_similarit
 
 ![header](img/ingredientSimilarity.jpg)
 
+###### d. Which ingredients go well together or do not go well together?
+
+###### e. Can we predict how recipes will be rated?
+
+Using python's **sklearn** library, we construct a **Linear SVC model, a Multinomial Naive Bayes model, a Random Forest Classification Model, and a Gradient Boosting model.** For each model, we randomly split our initial data set into two subset of data. The first dataset is our training data (containing 75% of the original dataset); this set is use to optimize model parameters. The second dataset is our test data (containing 25% of the original dataset); this set is use to evaluate the performance of our models. 
+
+For each model, we run a meshgrid of various model hyperparameters and select the one that returns the highest accuracy score on the training dataset. Given our parameterization, our Random Forest model has returned the best score.
+
 ## 4. Feature Transformation and Dimensionality Reduction
 
 Using python's **sklearn** library, we use the t-distributed Stochasitc Neighbor Embedding module to visualize the similarities between the ingredient vectors. Below is the graph of the first and second components, colored by type of cuisine. 
