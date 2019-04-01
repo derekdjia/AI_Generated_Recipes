@@ -98,6 +98,8 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 ## 3. General Modeling and Exploratory Data Analysis
 
+![header](img/exploration.jpg)
+
 <br></br>
 <p align="center">
   <img src ="img/ingredientwordcloud.JPG">
