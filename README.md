@@ -96,17 +96,18 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
  > **Instructions = Time + Temperature + Action + Tools + Ingredients**
 
-## 3. General Modeling and Exploratory Data Analysis
-
 ![header](img/exploration.jpg)
 
-* Can we categorize types of food based on their recipes?
-* Can we say with certainty if one type of food is more popular than another type?
-* Which factors and ingredients are good or not good for certain foods?
-* Which cuisines are most similar?
-* Which ingredients go well together or do not go well together?
-* Predicting user rating based on ingredients/instructions/title
-* Can artificial intelligence come up with new recipes that humans would enjoy?
+## 3. General Modeling and Exploratory Data Analysis
+
+In the process of constructing an Artificial Intelligence model, let's take the time to explore the following question to see if we can discover any pattern in our data.
+
+	* Can we categorize types of food based on their recipes?
+	* Can we say with certainty if one type of food is more popular than another type?
+	* Which factors and ingredients are good or not good for certain foods?
+	* Which cuisines are most similar?
+	* Which ingredients go well together or do not go well together?
+	* Can we predict how recipes will be rated?
 
 <p align="center">
   <img src ="img/ingredientwordcloud.JPG">
