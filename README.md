@@ -110,6 +110,7 @@ In the process of constructing an Artificial Intelligence model, let's take the 
 	* Which recipes are the most similar?
 	* Which ingredients go well together or do not go well together?
 	* Can we predict how recipes will be rated?
+	* For a given dish, which other dishes are the most similar?
 
 ##### a. Which ingredients appear most often?
 
@@ -151,11 +152,14 @@ Using python's **sklearn** library, we use the metrics.pairwise.cosine_similarit
 
 ##### e. Which ingredients go well together or do not go well together?
 
-For this exercise, we can simply look at the ratio of the count of all pairs of ingredients to the sum of the counts of each of ingredient. 
+For this exercise, we can simply look at the ratio of the count of all pairs of ingredients to the sum of the counts of each of the ingredients. 
 
 ##### f. Can we predict how recipes will be rated?
 
 In *predictratingbyingredients.py*, the user is able to enter a list of ingredients into their console and return a predicted rating using the model we designed in part b).
+
+##### g. For a given dish, which other dishes are the most similar?
+
 
 ## 4. Feature Transformation and Dimensionality Reduction
 
