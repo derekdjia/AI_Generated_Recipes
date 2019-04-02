@@ -130,7 +130,7 @@ Our two cuisines with the highest average ratings are 'American' and 'Southern &
 
 'English' cuisine has a large error bar since there were 18 observations.
 
-###### c. Which recipes are the most similar?
+###### c. Which cuisines have the most similar ingredient profile?
 
 Using python's **sklearn** library, we use the metrics.pairwise.cosine_similarity module to construct a cosine similarity matrix of cuisines. A score of 1 indicates that two cuisines share indentical ingredients in their recipes and a score of 0 indicates that two cuisines uses ingredients that have no correlation to each other.
 
