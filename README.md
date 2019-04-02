@@ -25,10 +25,9 @@ Let's explore the culinary world!
 	    * [2.2.1 Ingredients](#22-ingredients)  
 	    * [2.2.2 Instructions](#22-instructions)  
 3. [General Modeling and Exploratory Data Analysis](#3-modeling-eda)
-	* [3.1 Regression](#41-regression)
-	* [3.2 Classification](#41-classification)
-	* [3.3 Clustering](#42-clustering)
-	* [3.4 Other EDA](#43-other-eda)
+	* [3.1 Classification](#31-classification)
+	* [3.2 Clustering](#32-clustering)
+	* [3.3 Other EDA](#33-other-eda)
 4. [Feature Transformation and Dimensionality Reduction](#4-feature-transformation)
 	* [4.1 Data Transformation](#41-data-transfomation)
 5. [Neural Networks](#5-neural-networks)
@@ -112,6 +111,8 @@ In the process of constructing an Artificial Intelligence model, let's take the 
 	* Can we predict how recipes will be rated?
 	* For a given dish, which other dishes are the most similar?
 
+#### 3.1 Classfication
+
 ##### a. Which ingredients appear most often?
 
 Word cloud of ingredients, weighted by frequency of appearance in recipes:
@@ -160,6 +161,9 @@ In *predictratingbyingredients.py*, the user is able to enter a list of ingredie
 
 ##### g. For a given dish, which other dishes are the most similar?
 
+#### 3.2 Clustering
+
+![header](img/clustering.jpg)
 
 ## 4. Feature Transformation and Dimensionality Reduction
 
