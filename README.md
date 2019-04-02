@@ -121,7 +121,7 @@ Word cloud of ingredients, weighted by frequency of appearance in recipes:
 
 ##### b. Can we categorize cuisines based on recipes?
 
-Yes, it turns out we categorize cuisines based on recipes. There are 26 types of cuisines, but we are able to predict cuisines with **65% accuracy**. 
+Yes, it turns out we categorize cuisines based on recipes. There are 26 types of cuisines, but we are able to predict cuisines with **65% accuracy**. This accuracy score is a weighted average of pairwise accuracy scores. 
 
 Using python's **sklearn** library, we construct a **Linear SVC model, a Multinomial Naive Bayes model, a Random Forest Classification Model, and a Logistic Regression model.** For each model, we randomly split our initial data set into two subset of data. The first dataset is our training data (containing 75% of the original dataset); this set is use to optimize model parameters. The second dataset is our test data (containing 25% of the original dataset); this set is use to evaluate the performance of our models. 
 
@@ -150,6 +150,8 @@ Using python's **sklearn** library, we use the metrics.pairwise.cosine_similarit
 ![header](img/ingredientSimilarity.jpg)
 
 ##### e. Which ingredients go well together or do not go well together?
+
+For this exercise, we can simply look at the ratio of the count of all pairs of ingredients to the sum of the counts of each of ingredient. 
 
 ##### f. Can we predict how recipes will be rated?
 
