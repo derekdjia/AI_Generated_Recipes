@@ -104,21 +104,34 @@ We first remove the stopwords using the **NLTK** library and convert all words t
 
 In the process of constructing an Artificial Intelligence model, let's take the time to explore the following question to see if we can discover any pattern in our data.
 
+	* Which ingredients appear most often?
 	* Can we predict cuisines based on their recipes?
 	* Can we say with certainty if one type of food is more popular than another type?
 	* Which recipes are the most similar?
 	* Which ingredients go well together or do not go well together?
 	* Can we predict how recipes will be rated?
 
-###### a. Can we categorize types of food based on their recipes?
+##### a. Which ingredients appear most often?
+
+Word cloud of ingredients, weighted by frequency of appearance in recipes:
+
 <p align="center">
   <img src ="img/ingredientwordcloud.JPG">
 </p>
-<p align="center">
-   Word cloud of ingredients, weighted by frequency of appearance in recipes
-</p>
 
-###### b. Can we say with certainty if one type of food is more popular than another type?
+##### b. Can we categorize cuisines based on recipes?
+
+Yes, it turns out we categorize cuisines based on recipes. There are 26 types of cuisines, but we are able to predict cuisines with **65% accuracy**. 
+
+Using python's **sklearn** library, we construct a **Linear SVC model, a Multinomial Naive Bayes model, a Random Forest Classification Model, and a Logistic Regression model.** For each model, we randomly split our initial data set into two subset of data. The first dataset is our training data (containing 75% of the original dataset); this set is use to optimize model parameters. The second dataset is our test data (containing 25% of the original dataset); this set is use to evaluate the performance of our models. 
+
+For each model, we run a meshgrid of various model hyperparameters and select the one that returns the highest accuracy score on the training dataset. Given our parameterization, our Random Forest model has returned the best score.
+
+The models are saved in the /model directory as pickle files.
+
+![header](img/confusionmatrix.jpg)
+
+##### c. Can we say with certainty if cuisine is more popular than another?
 
 Using python's **scipy** library, we use the stats.ttest_ind module to compare the relative popularity of cuisines as judged by the allrecipes community. The function *compare.py* takes two types of cuisines as inputs and returns the average rating of each cuisine and the probability that the first cuisine is more popular. 
 
@@ -130,19 +143,17 @@ Our two cuisines with the highest average ratings are 'American' and 'Southern &
 
 'English' cuisine has a large error bar since there were 18 observations.
 
-###### c. Which cuisines have the most similar ingredient profile?
+##### d. Which cuisines have the most similar ingredient profile?
 
 Using python's **sklearn** library, we use the metrics.pairwise.cosine_similarity module to construct a cosine similarity matrix of cuisines. A score of 1 indicates that two cuisines share indentical ingredients in their recipes and a score of 0 indicates that two cuisines uses ingredients that have no correlation to each other.
 
 ![header](img/ingredientSimilarity.jpg)
 
-###### d. Which ingredients go well together or do not go well together?
+##### e. Which ingredients go well together or do not go well together?
 
-###### e. Can we predict how recipes will be rated?
+##### f. Can we predict how recipes will be rated?
 
-Using python's **sklearn** library, we construct a **Linear SVC model, a Multinomial Naive Bayes model, a Random Forest Classification Model, and a Gradient Boosting model.** For each model, we randomly split our initial data set into two subset of data. The first dataset is our training data (containing 75% of the original dataset); this set is use to optimize model parameters. The second dataset is our test data (containing 25% of the original dataset); this set is use to evaluate the performance of our models. 
-
-For each model, we run a meshgrid of various model hyperparameters and select the one that returns the highest accuracy score on the training dataset. Given our parameterization, our Random Forest model has returned the best score.
+In *predictratingbyingredients.py*, the user is able to enter a list of ingredients into their console and return a predicted rating using the model we designed in part b).
 
 ## 4. Feature Transformation and Dimensionality Reduction
 
