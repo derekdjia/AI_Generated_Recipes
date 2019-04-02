@@ -165,11 +165,15 @@ In *predictratingbyingredients.py*, the user is able to enter a list of ingredie
 
 ![header](img/clustering.jpg)
 
+Clustering can be using to detect latent pattern within datasets. Considering only the ingredients variable in our dataset, if we reduce this to two dimensions (discussed below), we can plot the two dimension against each other and visualize the results. Clustering indicates existance of patterns in the dataset. 
 
+The K-means clustering method aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean. The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.
+
+In our model, we find that the silhouette score indicates 4 clusters, roughly lining up with the 4 different subcontinents.
 
 #### 3.3 Other EDA
 
-![header](img/mostgast5.jpg)
+![header](img/molgast5.jpg)
 
 Nothing yet!
 
