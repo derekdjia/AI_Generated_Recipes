@@ -122,7 +122,9 @@ In the process of constructing an Artificial Intelligence model, let's take the 
 
 Using python's **scipy** library, we use the stats.ttest_ind module to compare the means of two independent samples of scores. 
 
-Based on our data, we conclude with 95% that the allrecipes community prefer the cuisines on the left to the cuisines on the right.
+We can also visualize ratings by cuisine using an error bar graph.
+
+![header](img/cuisinerating.jpg)
 
 ###### c. Which recipes are the most similar?
 
