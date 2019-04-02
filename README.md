@@ -165,6 +165,14 @@ In *predictratingbyingredients.py*, the user is able to enter a list of ingredie
 
 ![header](img/clustering.jpg)
 
+
+
+#### 3.3 Other EDA
+
+![header](img/mostgast5.jpg)
+
+Nothing yet!
+
 ## 4. Feature Transformation and Dimensionality Reduction
 
 Using python's **sklearn** library, we use the t-distributed Stochasitc Neighbor Embedding module to visualize the similarities between the ingredient vectors. Below is the graph of the first and second components, colored by type of cuisine. 
