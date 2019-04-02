@@ -120,13 +120,13 @@ In the process of constructing an Artificial Intelligence model, let's take the 
 
 ###### b. Can we say with certainty if one type of food is more popular than another type?
 
-Using python's **scipy** library, we use the stats.ttest_ind module to compare the means of two independent samples of scores. 
+Using python's **scipy** library, we use the stats.ttest_ind module to compare the relative popularity of cuisines as judged by the allrecipes community. The function *compare.py* takes two types of cuisines as inputs and returns the average rating of each cuisine and the probability that the first cuisine is more popular. 
 
 We can also visualize ratings by cuisine using an error bar graph.
 
 ![header](img/cuisinerating.jpg)
 
-Our two cuisines with the highest average ratings are 'American' and 'Southern & Soul Food', both of which we can say with 95% confidence to be more prefered by the Allrecipes community than most other cuisines. This conclusion is a reflection on the preferences of the community rather than a blanket statement on the quality of cuisines.
+Our two cuisines with the highest average ratings are 'American' and 'Southern & Soul Food', both of which we can say with 95% confidence to be more prefered by the community than most other cuisines. This conclusion is a reflection on the preferences of the community rather than a blanket statement on the quality of cuisines.
 
 'English' cuisine has a large error bar since there were 18 observations.
 
