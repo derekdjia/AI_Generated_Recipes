@@ -159,8 +159,6 @@ For this exercise, we can simply look at the ratio of the count of all pairs of 
 
 In *predictratingbyingredients.py*, the user is able to enter a list of ingredients into their console and return a predicted rating using the model we designed in part b).
 
-##### g. For a given dish, which other dishes are the most similar?
-
 #### 3.2 Clustering
 
 ![header](img/clustering.jpg)
@@ -179,11 +177,25 @@ Nothing yet!
 
 ## 4. Feature Transformation and Dimensionality Reduction
 
-Using python's **sklearn** library, we use the t-distributed Stochasitc Neighbor Embedding module to visualize the similarities between the ingredient vectors. Below is the graph of the first and second components, colored by type of cuisine. 
+In part 3, we are visualized the 2-D compression of the ingredient data set, using the t-distributed Stochasitc Neighbor Embedding module in python's **sklearn** library. The ingredient dataset is initially composed of 1013 explanatory variable, each a boolean variable of whether a particular ingredient like tomato exists in that recipe.
 
-<!---![header](img/tsneingredients.jpg)--->
+More generally, we are using Principle Component Analysis (PCA) to reduce the dimensions of a matrix. PCA uses an orthogonal transformation to convert a set of observations to a set of linearly uncorrelated variables. The first component is a n-dimensional vector, created to minimize the sum of square distances from all observations. Each subsequent component is found as a vector, orthogonal to all previous components, that when taken in conjugation with all previous components, further minimizes the sum of square distances from all observations.
 
-While we are able to see distinct clustering, dimensionality reduction has the distinct problem of losing interpretability. Let's start at the beginning again. We know exactly what one tomato or 1 teaspoon of sugar is, but how do we interpret a unit vector of a small fractions of hundreds of ingredients? Similarity, how do we interpret a unit vector of instructions? 
+Reminder to the reader that we had previously parsed the following from the instructions text:
+
+	    1. Time (Optional)
+	    2. Temperature (Optional)
+	    3. Action
+	    4. Tools (Optional)
+	    5. Ingredients
+
+Let's focus on the two most important non-optional categories for the following analysis: action and ingredients. More simply, recipes are a list of ingredient-action pair. Limiting our actions to a list of 182 and ingredients to 1013 of the most common, we obtain 184366 ingredient-action pairs. Reshaping our data shape as a matrix of booleans, each of these 184366 ingredient-action pairs becomes its own column, with 1 indicates that a particular ingredient-action was used in the recipe. 
+
+Using a dataset of 15,000 observations, a 15,000 x 184366 matrix of boolean is roughly 25GB of data, much too large to process using a single core. Therefore we have to use dimensionality reduction!
+
+Using PCA decomposition is problematic since the meaning of our objective gets lost. How can a cook possibly implement thousands of ingredient-actions per dish? The solution is **embedded encoding.**
+
+Embedded encoding in the context of Machine Learning is a transformation of variables. We have 184366 variables, each of these get map to an unique integer in binary form. Each digit of our new key becomes the new variables. We can encode each ingredient-action in as little as 18 dimensions in binary form! Since by the nature of cooking, our action-ingredient pair tend to be limited, we can impose a maximum number of 25. Consequently, we have reduced our dimensionality by a factor of 400 without losing interpretability!
 
 ## 5. Neural Networks
 
