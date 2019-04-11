@@ -173,8 +173,6 @@ In our model, we find that the silhouette score indicates 4 clusters, roughly li
 
 ![header](img/molgast5.jpg)
 
-Nothing yet!
-
 ## 4. Feature Transformation and Dimensionality Reduction
 
 In part 3, we are visualized the 2-D compression of the ingredient data set, using the t-distributed Stochasitc Neighbor Embedding module in python's **sklearn** library. The ingredient dataset is initially composed of 1013 explanatory variable, each a boolean variable of whether a particular ingredient like tomato exists in that recipe.
